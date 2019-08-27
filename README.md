@@ -18,3 +18,15 @@ in Test.csv
 4. The model will predict tags for test data.
 5. Once tags are predicted, create a new CSV file with Id and Tags column.
 
+
+**Models/ Algorithms proposed**
+
+1. Use bag of words upto 4 grams and compute the micro f1 score with Logistic
+regression(OvR).
+2. Perform hyperparam tuning on alpha (or lambda) for Logistic regression
+to improve the performance using GridSearch.
+3. Try OneVsRestClassifier with Linear-SVM (SGDClassifier with
+loss-hinge).
+
+
+

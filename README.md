@@ -5,3 +5,6 @@ question text and its title.
 Problem Statement: - For the given content, come up 
 with a solution to build the taxonomy. 
 
+**High Level Solution Approach**
+
+
